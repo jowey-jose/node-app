@@ -1,0 +1,26 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "A simple static node application to test CI/CD Pipeline with Jenkins for Automated changes on the code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jowey-jose/node-app.git"
+  },
+  "author": "Joseph Mbuku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jowey-jose/node-app/issues"
+  },
+  "homepage": "https://github.com/jowey-jose/node-app#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "supertest": "^4.0.0"
+  }
+}
